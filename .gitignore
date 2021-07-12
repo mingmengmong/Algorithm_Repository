@@ -104,3 +104,11 @@ others
 SG_cources
 SWExpertAcademy
 *FAIL*.java
+
+# Ignore Source File
+Main.java
+Main2.java
+Solution.java
+input
+input2
+
