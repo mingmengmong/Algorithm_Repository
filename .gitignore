@@ -106,7 +106,10 @@ SWExpertAcademy
 *FAIL*.java
 
 # Ignore Source File
-*Main*.java
-*input*
+Main.java
+src/Main.java
+src/Main2.java
+src/input
+src/input2
 src/Solution.java
 
