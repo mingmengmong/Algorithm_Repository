@@ -25,8 +25,8 @@ public class BOJ17387 {
 	}
 	
 	public static void BOJ17387(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
-		sc = new Scanner(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
+		//sc = new Scanner(new File(Main.class.getResource("").getPath() + "input"));
 		
 		for(int i=0; i<4; ++i){
 			x[i] = sc.nextLong();

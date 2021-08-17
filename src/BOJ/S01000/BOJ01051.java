@@ -10,8 +10,8 @@ public class BOJ01051 {
 	public static StringTokenizer st;
 	
 	public static void BOJ01051(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
-		sc = new Scanner(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
+		//sc = new Scanner(new File(Main.class.getResource("").getPath() + "input"));
 		
 		int N = sc.nextInt(), M = sc.nextInt();
 		String[] arr = new String[N];

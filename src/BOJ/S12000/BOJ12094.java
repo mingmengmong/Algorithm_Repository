@@ -16,7 +16,7 @@ public class BOJ12094 {
 	public static int max = 0;
 	
 	public static void BOJ12094(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input2")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		/*
 		3
 		2 2 2

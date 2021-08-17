@@ -15,8 +15,8 @@ public class BOJ01509 {
 	public static boolean[][] dp = new boolean[MAX+1][MAX+1];
 	
 	public static void BOJ01509(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
-		sc = new Scanner(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
+		//sc = new Scanner(new File(Main.class.getResource("").getPath() + "input"));
 		
 		str = " " + br.readLine();
 		length = str.length()-1;

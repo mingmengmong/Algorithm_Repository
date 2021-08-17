@@ -19,7 +19,7 @@ public class BOJ01516 {
 	public static List<Integer>[] edge;
 	
 	public static void BOJ01516(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input2")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		N = Integer.parseInt(br.readLine());
 		arr = new int[N];

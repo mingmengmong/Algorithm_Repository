@@ -13,8 +13,8 @@ public class BOJ01244 {
 	static int[] arr;
 	
 	public static void BOJ01244(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
-		sc = new Scanner(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
+		//sc = new Scanner(new File(Main.class.getResource("").getPath() + "input"));
 		
 		N = Integer.parseInt(br.readLine());
 		arr = new int[N+1];

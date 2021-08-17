@@ -16,7 +16,7 @@ public class BOJ01261 {
 	public static int[] cd = {0,  0, 1, -1};
 	
 	public static void BOJ01261(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input2")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		st = new StringTokenizer(br.readLine());
 		C = Integer.parseInt(st.nextToken());

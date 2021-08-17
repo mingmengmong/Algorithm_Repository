@@ -12,7 +12,7 @@ public class BOJ16928 {
 	
 	
 	public static void BOJ16928(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input"));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());

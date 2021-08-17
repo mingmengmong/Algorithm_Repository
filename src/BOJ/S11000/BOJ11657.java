@@ -30,7 +30,7 @@ public class BOJ11657 {
 	}
 	
 	public static void BOJ11657(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		st = new StringTokenizer(br.readLine());
 		V = Integer.parseInt(st.nextToken());

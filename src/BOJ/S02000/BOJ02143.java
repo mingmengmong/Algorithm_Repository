@@ -16,7 +16,7 @@ public class BOJ02143 {
 	public static List<Integer> nl = new ArrayList<>(), ml = new ArrayList<>();
 	
 	public static void Main(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		T = Integer.parseInt(br.readLine());
 		N = Integer.parseInt(br.readLine());

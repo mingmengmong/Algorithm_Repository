@@ -18,7 +18,7 @@ public class BOJ17371 {
 	}
 	
 	public static void BOJ17371(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		N = Integer.parseInt(br.readLine());
 		for(int i=0; i<N; ++i){

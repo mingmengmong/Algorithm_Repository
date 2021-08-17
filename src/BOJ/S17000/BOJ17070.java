@@ -10,7 +10,7 @@ public class BOJ17070 {
 	public static StringTokenizer st;
 	
 	public static void BOJ17070(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input2")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		int N = Integer.parseInt(br.readLine());
 		int[][] arr = new int[N+1][N+1];
 		arr[0][0] = 1;

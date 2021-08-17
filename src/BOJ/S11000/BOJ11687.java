@@ -12,7 +12,7 @@ public class BOJ11687 {
 	public static int N, MAXN=100_000_000;
 	
 	public static void BOJ11687(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		N = Integer.parseInt(br.readLine());
 		

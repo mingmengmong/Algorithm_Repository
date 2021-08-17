@@ -36,7 +36,7 @@ public class BOJ02342 {
 	}
 	
 	public static void BOJ02342(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		String[] inputs = br.readLine().split(" ");
 		N = inputs.length - 1;

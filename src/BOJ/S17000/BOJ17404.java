@@ -25,7 +25,7 @@ public class BOJ17404 {
 	public static int[][] dp = new int[MAX+1][9];
 	
 	public static void BOJ17404(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		N = Integer.parseInt(br.readLine());
 		for(int i=0; i<N; ++i){

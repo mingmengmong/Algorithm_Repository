@@ -15,7 +15,7 @@ public class BOJ20058 {
 	public static boolean[][] visit;
 	
 	public static void BOJ20058(String[] args) throws Exception {
-		br = new BufferedReader(new FileReader(new File("/Users/gimmyeongsu/Desktop/Intellij/BOJ/src/input")));
+		//br = new BufferedReader(new FileReader(Main.class.getResource("").getPath() + "input"));
 		
 		st = new StringTokenizer(br.readLine());
 		N = Integer.parseInt(st.nextToken());
