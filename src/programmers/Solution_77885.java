@@ -1,9 +1,10 @@
+package programmers;
 import java.util.*;
 import java.text.*;
 import java.util.stream.Collectors;
 
 
-public class Solution {
+public class Solution_77885 {
 	
 	/**
 	 * url : https://programmers.co.kr/learn/courses/30/lessons/77885
